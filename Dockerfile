@@ -20,7 +20,7 @@ ENV	VNC_PASS=Hacker@31287" \
 #NoVNC Port
 	NOVNC_PORT=5900 \
 #Ngrok Token (Strictly use private token if using the service)
-	2JYLpxDsc5w3ZMKAA8FLCPEuM0R_4JqnS6C45Hze1g8kKkBJa" \
+	NGROK_AUTH_TOKEN="2JYLpxDsc5w3ZMKAA8FLCPEuM0R_4JqnS6C45Hze1g8kKkBJa" \
 #Locale
 	LANG=en_US.UTF-8 \
 	LANGUAGE=en_US.UTF-8 \
