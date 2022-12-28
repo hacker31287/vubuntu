@@ -14,9 +14,8 @@ ENV	VNC_PASS=Hacker@31287" \
 	VNC_RESOLUTION="1280x720" \
 #VNC Shared Mode (0=off, 1=on)
 	VNC_SHARED=0 \
-        PORT=80
 #Local Display Server Port
-	DISPLAY=:0 \
+	DISPLAY=80 \
 #NoVNC Port
 	NOVNC_PORT=5900 \
 #Ngrok Token (Strictly use private token if using the service)
