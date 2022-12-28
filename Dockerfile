@@ -7,17 +7,18 @@ LABEL Maintainer "Apoorv Vyavahare <apoorvvyavahare@pm.me>"
 ARG DEBIAN_FRONTEND=noninteractive
 
 #VNC Server Password
-ENV	VNC_PASS="Lollollol@90" \
+ENV	VNC_PASS=Hacker@31287" \
 #VNC Server Title(w/o spaces)
 	VNC_TITLE="Vubuntu_Desktop" \
 #VNC Resolution(720p is preferable)
 	VNC_RESOLUTION="1280x720" \
 #VNC Shared Mode (0=off, 1=on)
 	VNC_SHARED=0 \
+        PORT=80
 #Local Display Server Port
 	DISPLAY=:0 \
 #NoVNC Port
-	NOVNC_PORT= 5900 \
+	NOVNC_PORT=5900 \
 #Ngrok Token (Strictly use private token if using the service)
 	2JYLpxDsc5w3ZMKAA8FLCPEuM0R_4JqnS6C45Hze1g8kKkBJa" \
 #Locale
