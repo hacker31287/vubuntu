@@ -7,7 +7,7 @@ LABEL Maintainer "Apoorv Vyavahare <apoorvvyavahare@pm.me>"
 ARG DEBIAN_FRONTEND=noninteractive
 
 #VNC Server Password
-ENV	VNC_PASS="samplepass" \
+ENV	VNC_PASS="Lollollol@90" \
 #VNC Server Title(w/o spaces)
 	VNC_TITLE="Vubuntu_Desktop" \
 #VNC Resolution(720p is preferable)
@@ -17,9 +17,9 @@ ENV	VNC_PASS="samplepass" \
 #Local Display Server Port
 	DISPLAY=:0 \
 #NoVNC Port
-	NOVNC_PORT=$PORT \
+	NOVNC_PORT= 5900 \
 #Ngrok Token (Strictly use private token if using the service)
-	NGROK_AUTH_TOKEN="1xM4IHjFpX4CwPYr82zZJH9ZjYQ_5kmfqfXit97FkTYSGUrZJ" \
+	2JYLpxDsc5w3ZMKAA8FLCPEuM0R_4JqnS6C45Hze1g8kKkBJa" \
 #Locale
 	LANG=en_US.UTF-8 \
 	LANGUAGE=en_US.UTF-8 \
